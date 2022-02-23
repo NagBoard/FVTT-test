@@ -1,48 +1,27 @@
 {
-  "name": "test",
-  "title": "Hurry Up! Combat Timer",
-  "description": "A simple timer to hurry up your players in combat!",
-  "version": "0.7.2",
-  "author": "theripper93",
-  "authors": [
-      {
-          "name": "theripper93",
-          "email": "tsplab@gmail.com",
-          "url": "https://www.patreon.com/theripper93"
-      }
-  ],
-  "languages": [
-      {
-          "lang": "en",
-          "name": "English",
-          "path": "languages/en.json"
-      },
-      {
-          "lang": "ja",
-          "name": "日本語",
-          "path": "languages/ja.json"
-      }
-  ],
-  "scripts": [
-      "./scripts/main.js",
-      "./scripts/config.js",
-      "./scripts/module.js",
-      "./scripts/screens.js"
-  ],
+  "name": "game_time_clock",
+  "title": "Game Time Clock",
+  "description": "Show how many time did you spend in game.",
+  "author": "Sad, HKTRPG",
+  "version": "1.3.2",
+  "minimumCoreVersion": "0.6.0",
+  "compatibleCoreVersion": "9",
   "styles": [
-      "./styles/module.css",
-      "./styles/combatScreens.css"
   ],
-  "packs": [],
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "0.8.9",
-  "url": "https://github.com/theripper93/hurry-up",
-  "manifest": "https://github.com/theripper93/hurry-up/releases/latest/download/module.json",
-  "download": "https://github.com/theripper93/hurry-up/releases/download/0.7.2/module.zip",
-  "socket": true,
-  "dependencies": [
-      {
-          "name": "socketlib"
-      }
-  ]
+  "esmodules": ["index.js"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "langs/en.json"
+    },
+    {
+      "lang": "zh-tw",
+      "name": "正體中文",
+      "path": "langs/zh-tw.json"
+    }
+  ],
+  "url": "https://github.com/hktrpg/foundryVTT_game_time_clock/",
+  "manifest": "https://raw.githubusercontent.com/hktrpg/foundryVTT_game_time_clock/master/module.json",
+  "download": "https://github.com/hktrpg/foundryVTT_game_time_clock//releases/latest/download/module.zip"
 }
