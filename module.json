@@ -1,0 +1,48 @@
+{
+  "name": "test",
+  "title": "Hurry Up! Combat Timer",
+  "description": "A simple timer to hurry up your players in combat!",
+  "version": "0.7.2",
+  "author": "theripper93",
+  "authors": [
+      {
+          "name": "theripper93",
+          "email": "tsplab@gmail.com",
+          "url": "https://www.patreon.com/theripper93"
+      }
+  ],
+  "languages": [
+      {
+          "lang": "en",
+          "name": "English",
+          "path": "languages/en.json"
+      },
+      {
+          "lang": "ja",
+          "name": "日本語",
+          "path": "languages/ja.json"
+      }
+  ],
+  "scripts": [
+      "./scripts/main.js",
+      "./scripts/config.js",
+      "./scripts/module.js",
+      "./scripts/screens.js"
+  ],
+  "styles": [
+      "./styles/module.css",
+      "./styles/combatScreens.css"
+  ],
+  "packs": [],
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "0.8.9",
+  "url": "https://github.com/theripper93/hurry-up",
+  "manifest": "https://github.com/theripper93/hurry-up/releases/latest/download/module.json",
+  "download": "https://github.com/theripper93/hurry-up/releases/download/0.7.2/module.zip",
+  "socket": true,
+  "dependencies": [
+      {
+          "name": "socketlib"
+      }
+  ]
+}
